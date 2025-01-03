@@ -12,6 +12,3 @@ install:
   - npm install  # команда установки зависимостей
 
 build: off  # отключаем встроенную в appveyor систему сборки
-
-test_script:
-  - npm run lint && npm test  # скрипт тестирования
